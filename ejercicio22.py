@@ -9,15 +9,14 @@ def reset():
 root = Tk()
 opcion = StringVar()
 opcion.set(None)
-Radiobutton(root, text="Peugeot", variable=opcion,
-            value='Peugeot', command=seleccionar).pack(anchor=W)
+Radiobutton(root, text="Windows", variable=opcion,
+            value='Windows', command=seleccionar).pack(anchor=W)
 
-Radiobutton(root, text="Opel", variable=opcion,
-            value='Opel', command=seleccionar).pack(anchor=W)
-Radiobutton(root, text="Renault", variable=opcion,
-            value='Renault', command=seleccionar).pack(anchor=W)
-Radiobutton(root, text="Seat", variable=opcion,
-            value='Seat', command=seleccionar).pack(anchor=W)
+Radiobutton(root, text="Linux", variable=opcion,
+            value='Linux', command=seleccionar).pack(anchor=W)
+Radiobutton(root, text="MacOs", variable=opcion,
+            value='MacOs', command=seleccionar).pack(anchor=W)
+
 
 monitor = Label(root)
 monitor.pack()
